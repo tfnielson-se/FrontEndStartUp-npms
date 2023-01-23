@@ -13,7 +13,7 @@ Tailwind CSS: 🎨
 https://tailwindcss.com/docs/guides/vite
 
 1. npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+1.1 npx tailwindcss init -p
 
 2. /** @type {import('tailwindcss').Config} */
 module.exports = {
