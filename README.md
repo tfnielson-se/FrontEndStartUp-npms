@@ -1,6 +1,6 @@
-# FrontEndStartUp-npms
+# FrontEndStartUp-npms 💻
 
-React+Vite:
+React+Vite: ⚛️
 https://vitejs.dev/guide/
 
 1. npm create vite@latest
@@ -9,26 +9,27 @@ https://vitejs.dev/guide/
 
 json-server --watch db.json
 
-Tailwind CSS:
-https://tailwindcss.com/docs/installation
+Tailwind CSS: 🎨
+https://tailwindcss.com/docs/guides/vite
 
-1. npm install -D tailwindcss
-npx tailwindcss init
+1. npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 
 2. /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
 }
 
-3. Add to CSS ->
+3. Add to index.css ->
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-4. npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
-
-5. <link href="/dist/output.css" rel="stylesheet">
+4. npm run dev
