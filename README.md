@@ -13,9 +13,9 @@ Tailwind CSS: 🎨
 https://tailwindcss.com/docs/guides/vite
 
 1. npm install -D tailwindcss postcss autoprefixer 
-1.1 npx tailwindcss init -p
+2.  npx tailwindcss init -p
 
-2. /** @type {import('tailwindcss').Config} */
+3. /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./index.html",
@@ -27,9 +27,9 @@ module.exports = {
   plugins: [],
 }
 
-3. Add to index.css ->
+4. Add to index.css ->
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-4. npm run dev
+5. npm run dev
