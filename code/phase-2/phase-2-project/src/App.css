@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+.experience-form {
+	border-style: dashed;
+	border-radius: 10px;
+	background: rgba(245, 245, 245, 0.36);
+}
+
+.exp-div {
+	background: darkcyan;
+}
