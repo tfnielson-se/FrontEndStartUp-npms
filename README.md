@@ -12,7 +12,7 @@ json-server --watch db.json
 Tailwind CSS: 🎨
 https://tailwindcss.com/docs/guides/vite
 
-1. npm install -D tailwindcss postcss autoprefixer
+1. npm install -D tailwindcss postcss autoprefixer 
 1.1 npx tailwindcss init -p
 
 2. /** @type {import('tailwindcss').Config} */
