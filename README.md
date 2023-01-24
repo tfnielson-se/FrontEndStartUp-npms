@@ -40,3 +40,7 @@ Daisy UI 🌻
   //...
   plugins: [require("daisyui")],
 }
+
+Styled Components 💅
+https://styled-components.com/docs/basics#installation
+1. npm install --save styled-components
