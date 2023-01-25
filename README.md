@@ -1,19 +1,20 @@
 # FrontEndStartUp-npms 💻
 
-React+Vite: ⚛️
-https://vitejs.dev/guide/
+React+Vite: ⚛️ Create React App
+https://vitejs.dev/guide/ | https://create-react-app.dev/docs/getting-started
 
-1. npm create vite@latest
-2. npm install
-3. npm run dev
+1. npm create vite@latest | npx create-react-app 
+2. npm install | cd 
+3. npm run dev | npm start
 
 json-server --watch db.json
 
-Tailwind CSS: 🎨
-https://tailwindcss.com/docs/guides/vite
+Tailwind CSS: 🌬️
+https://tailwindcss.com/docs/guides/vite | https://tailwindcss.com/docs/guides/create-react-app
 
-1. npm install -D tailwindcss postcss autoprefixer 
-2.  npx tailwindcss init -p
+1. npm install -D tailwindcss postcss autoprefixer | npm install -D tailwindcss
+2.  npx tailwindcss init -p | npx tailwindcss init
+
 
 3. /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -33,8 +34,9 @@ module.exports = {
 @tailwind utilities;
 
 Daisy UI 🌻
+https://daisyui.com/docs/install/
 
-1. npm i daisyui
+1. npm i daisyui 
 2. Add to tailwind.config.cjs:
 2. module.exports = {
   //...
