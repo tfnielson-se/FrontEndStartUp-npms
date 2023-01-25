@@ -24,15 +24,17 @@ https://tailwindcss.com/docs/guides/vite | https://tailwindcss.com/docs/guides/c
 
 3. /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: [ "./src/**/*.{js,jsx}","./index.html",],
   theme: {
     extend: {},
   },
-  plugins: [],
+  daisyui: {
+    themes: ["light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter"],
+  },
+  plugins: [require("daisyui")],
 }
+
+4. <html data-theme="dark"></html>
 
 4. Add to index.css ->
 @tailwind base;
