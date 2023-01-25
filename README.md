@@ -7,7 +7,8 @@ https://vitejs.dev/guide/ | https://create-react-app.dev/docs/getting-started
 2. npm install | cd 
 3. npm run dev | npm start
 
-json-server --watch db.json
+@ package.json
+"server": "json-server --watch db.json"
 
 Tailwind CSS: 🌬️
 https://tailwindcss.com/docs/guides/vite | https://tailwindcss.com/docs/guides/create-react-app
