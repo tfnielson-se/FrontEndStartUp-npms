@@ -40,7 +40,6 @@ https://daisyui.com/docs/install/
 1. npm i daisyui 
 2. Add to tailwind.config.cjs:
 2. module.exports = {
-  //...
   plugins: [require("daisyui")],
 }
 
