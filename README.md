@@ -10,6 +10,11 @@ https://vitejs.dev/guide/ | https://create-react-app.dev/docs/getting-started
 @ package.json
 "server": "json-server --watch db.json"
 
+React Router DOM 🚏
+https://reactrouter.com/en/main/start/tutorial#setup
+
+1. npm install react-router-dom
+
 Tailwind CSS: 🌬️
 https://tailwindcss.com/docs/guides/vite | https://tailwindcss.com/docs/guides/create-react-app
 
