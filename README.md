@@ -1,5 +1,9 @@
 # FrontEndStartUp-npms 💻
 
+FULLSTACK ?
+
+( npx create vite@latest client --use-npm ) :
+
 React+Vite: ⚛️ Create React App
 https://vitejs.dev/guide/ | https://create-react-app.dev/docs/getting-started
 
@@ -9,6 +13,16 @@ https://vitejs.dev/guide/ | https://create-react-app.dev/docs/getting-started
 
 @ package.json
 "server": "json-server --watch db.json"
+
+## /client 🗂️
+
+LOADASH 👌🏽
+
+1. npm i loadash
+
+@ top of js/jsx/... file
+
+2. import _ from "lodash"
 
 React Router DOM 🚏
 https://reactrouter.com/en/main/start/tutorial#setup
@@ -24,22 +38,25 @@ https://tailwindcss.com/docs/guides/vite | https://tailwindcss.com/docs/guides/c
 
 3. /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [ "./src/**/*.{js,jsx}","./index.html",],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {},
   },
-  daisyui: {
-    themes: ["light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter"],
-  },
-  plugins: [require("daisyui")],
+  plugins: [],
 }
-
-4. <html data-theme="dark"></html>
 
 4. Add to index.css ->
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+4. https://merakiui.com/
+
+
+###(OPTIONAL...)
 
 Daisy UI 🌻
 https://daisyui.com/docs/install/
