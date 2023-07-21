@@ -1,16 +1,15 @@
 # FrontEndStartUp-npms 💻
 
-FULLSTACK ?
+FULLSTACK ? -> ( npx create vite@latest client --use-npm ) :
 
-( npx create vite@latest client --use-npm ) :
-
+Front End
 React+Vite: ⚛️ Create React App
-https://vitejs.dev/guide/ | https://create-react-app.dev/docs/getting-started
+https://vitejs.dev/guide/ 
 
-1. npm create vite@latest | npx create-react-app 
-2. npm install | cd 
-3. npm run dev | npm start
-
+1. npm create vite@latest
+2. cd project
+3. npm install 
+4. npm run dev 
 @ package.json
 "server": "json-server --watch db.json"
 
@@ -30,10 +29,10 @@ https://reactrouter.com/en/main/start/tutorial#setup
 1. npm install react-router-dom
 
 Tailwind CSS: 🌬️
-https://tailwindcss.com/docs/guides/vite | https://tailwindcss.com/docs/guides/create-react-app
+https://tailwindcss.com/docs/guides/vite 
 
-1. npm install -D tailwindcss postcss autoprefixer | npm install -D tailwindcss
-2.  npx tailwindcss init -p | npx tailwindcss init
+1. npm install -D tailwindcss postcss autoprefixer 
+2.  npx tailwindcss init -p 
 
 
 3. /** @type {import('tailwindcss').Config} */
