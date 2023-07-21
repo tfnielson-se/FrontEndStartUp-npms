@@ -1,6 +1,5 @@
 # FrontEndStartUp-npms 💻
-
-FULLSTACK ? -> ( npx create vite@latest client --use-npm ) :
+updated: 07/21/2023
 
 Front End
 React+Vite: ⚛️ Create React App
@@ -12,16 +11,6 @@ https://vitejs.dev/guide/
 4. npm run dev 
 @ package.json
 "server": "json-server --watch db.json"
-
-## /client 🗂️
-
-LOADASH 👌🏽
-
-1. npm i loadash
-
-@ top of js/jsx/... file
-
-2. import _ from "lodash"
 
 React Router DOM 🚏
 https://reactrouter.com/en/main/start/tutorial#setup
@@ -36,27 +25,43 @@ https://tailwindcss.com/docs/guides/vite
 
 
 3. /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+export default {
+    content: [
+      "./index.html",
+      "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    theme: {
+      extend: {},
+    },
+    plugins: [],
+  }
 
 4. Add to index.css ->
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-4. https://merakiui.com/
-
 
 ###(OPTIONAL...)
+LOADASH 👌🏽
+-- Ruby / Python like methods for JS
 
+1. npm i loadash
+
+@ top of js/jsx/... file
+
+2. import _ from "lodash"
+
+Pre-Built TailwindCSS based Components [no npm req.]:
+https://merakiui.com/
+https://sailboatui.com/
+
+Animation:
+Framer Motion 🏃‍♂️
+https://www.framer.com/motion/
+npm install framer motion
+
+Components:
 Daisy UI 🌻
 https://daisyui.com/docs/install/
 
