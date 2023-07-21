@@ -42,7 +42,8 @@ export default {
 @tailwind utilities;
 
 
-###(OPTIONAL...)
+### (OPTIONAL...)
+
 LOADASH 👌🏽
 -- Ruby / Python like methods for JS
 
